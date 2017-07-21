@@ -1,0 +1,6 @@
+.DS_Store
+*.swp
+.git/
+.git
+init.vim
+_undo/
