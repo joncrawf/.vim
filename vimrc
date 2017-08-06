@@ -48,6 +48,7 @@ let g:one_allow_italics=1
 syntax on
 set t_Co=256
 colorscheme one
+let g:rehash256 = 1
 highlight Comment cterm=italic
 highlight htmlArg cterm=italic
 highlight SpecialKey ctermbg=none ctermfg=8
@@ -65,7 +66,6 @@ set diffopt+=vertical
 set encoding=utf-8
 set expandtab
 set foldenable
-set foldlevel=1
 set foldmethod=marker       " fold based on marker
 set foldnestmax=10          " deepest fold is 10 levels
 set grepprg=ag     " use ag as default for grep
@@ -216,7 +216,9 @@ nnoremap <leader>vi :e ~/.vim/init.vim<cr>
 nnoremap <leader>ex :Explore .<cr>
 nnoremap <leader>b :Buffers<CR>
 map <C-n> :NERDTreeToggle<CR>
-
+" Move workspace to current buffer pwd
+nnoremap <leader>cd :cd %:p:h<CR>:pwd<CR> " all buffers
+nnoremap <leader>lcd :cd %:p:h<CR>:pwd<CR> " local buffers
 " Mappings for the tmux runner plugin
 nnoremap <leader>va :VtrAttachToPane<cr>
 nnoremap <leader>sc :VtrSendCommand<cr>
