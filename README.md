@@ -41,6 +41,7 @@ In order to maintain the following plugins, [vim-plug](https://github.com/junegu
 - [https://github.com/SirVer/ultisnips](https://github.com/SirVer/ultisnips)
 - [https://github.com/terryma/vim-smooth-scroll](https://github.com/terryma/vim-smooth-scroll)
 - [https://github.com/tommcdo/vim-exchange](https://github.com/tommcdo/vim-exchange)
+- [https://github.com/tpope/vim-fugitive](https://github.com/tpope/vim-fugitive)
 - [https://github.com/tpope/vim-markdown](https://github.com/tpope/vim-markdown)
 - [https://github.com/tpope/vim-sleuth](https://github.com/tpope/vim-sleuth)
 - [https://github.com/tpope/vim-surround](https://github.com/tpope/vim-surround)

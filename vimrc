@@ -7,9 +7,10 @@ if (has('nvim'))
   set inccommand=nosplit
 endif
 
-" Plugins
+" Plugins"{{{
 source ~/.vim/plugins.vim
 
+" }}}
 " Colour scheme settings"{{{
 let $NVIM_TUI_ENABLE_CURSOR_SHAPE=1
 
@@ -228,6 +229,7 @@ nnoremap <leader>or :VtrOpenRunner { 'orientation': 'v', 'percentage': 20 }<cr>:
 
 map <Leader><Leader> <Plug>(easymotion-prefix)
 "}}}
+" Custom Functions"{{{
 " Rename current file"{{{
 function! RenameFile()
   let old_name = expand('%')
@@ -286,7 +288,7 @@ augroup vimrcEx
   autocmd BufReadPost,BufWritePost * Neomake
 augroup END
 " }}}
-" Wildmenu completion" {{{
+" Wildmenu completion"{{{
 set wildignore+=.hg,.git,.svn                    " Version control
 set wildignore+=*.aux,*.out,*.toc                " LaTeX intermediate files
 set wildignore+=*.jpg,*.bmp,*.gif,*.png,*.jpeg   " binary images
