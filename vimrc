@@ -215,6 +215,7 @@ nnoremap <leader>wq :wq<cr>
 nnoremap <leader>vi :e ~/.vim/init.vim<cr>
 nnoremap <leader>ex :Explore .<cr>
 nnoremap <leader>b :Buffers<CR>
+nnoremap <leader>h :History<cr>
 map <C-n> :NERDTreeToggle<CR>
 " Move workspace to current buffer pwd
 nnoremap <leader>cd :cd %:p:h<CR>:pwd<CR> " all buffers
