@@ -230,6 +230,9 @@ nnoremap <C-a> :VtrSendLinesToRunner<cr>
 vnoremap <C-a> :VtrSendLinesToRunner<cr>
 nnoremap <leader>or :VtrOpenRunner { 'orientation': 'v', 'percentage': 20 }<cr>:VtrSendFile<cr>
 
+nnoremap <leader>ga :Git add %:p<cr><cr>
+nnoremap <leader>gs :Gstatus<cr>
+
 map <Leader><Leader> <Plug>(easymotion-prefix)
 "}}}
 " Custom Functions"{{{
