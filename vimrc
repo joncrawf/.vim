@@ -328,7 +328,7 @@ let g:airline#extensions#tabline#show_buffers = 0 " do not show open buffers in 
 let g:airline#extensions#tabline#show_splits = 0
 " }}}
 " Ack"{{{
-if executable('rg')
+if executable('ag')
   let g:ackprg = 'ag --nogroup --nocolor --column'
 endif
 " }}}
