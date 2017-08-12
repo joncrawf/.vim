@@ -43,6 +43,7 @@ Plug 'scrooloose/nerdtree'
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'sickill/vim-pasta' " context-aware pasting
 Plug 'SirVer/ultisnips' | Plug 'honza/vim-snippets'
+Plug 'terryma/vim-multiple-cursors'
 Plug 'terryma/vim-smooth-scroll'
 Plug 'tommcdo/vim-exchange'
 Plug 'tpope/vim-fugitive'

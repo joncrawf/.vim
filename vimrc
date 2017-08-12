@@ -384,6 +384,13 @@ let g:UltiSnipsSnippetDirectories=[$HOME.'/.vim/UltiSnips', $HOME.'/.vim/plugged
 " Vim better whitespace"{{{
 let g:better_whitespace_filetypes_blacklist=['markdown', 'md']
 " }}}
+" Vim multiple cursors"{{{
+let g:multi_cursor_use_default_mapping=0
+let g:multi_cursor_next_key='<C-m>'
+let g:multi_cursor_prev_key='<C-p>'
+let g:multi_cursor_skip_key='<C-x>'
+let g:multi_cursor_quit_key='<Esc>'
+" }}}
 " Vim sexp"{{{
 let g:sexp_enable_insert_mode_mappings = 1
 " }}}
