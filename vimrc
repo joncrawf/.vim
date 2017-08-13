@@ -275,19 +275,13 @@ augroup vimrcEx
   autocmd FileType vim setlocal keywordprg=:help
 
   " Automatically wrap at 80 characters and enable spell check text and markdowns
-  autocmd BufRead,BufNewFile *.txt,*.markdown setlocal textwidth=80
+  autocmd FileType text,markdown setlocal textwidth=80
   autocmd FileType text,markdown setlocal spell
   autocmd FileType text,markdown hi clear SpellBad
   autocmd FileType text,markdown hi SpellBad cterm=underline
   autocmd FileType text,markdown set formatoptions+=t
 
-  " Enable spellchecking for org files
-  autocmd FileType org setlocal spell
-  autocmd FileType org hi clear SpellBad
-  autocmd FileType org hi SpellBad cterm=underline
-
   " Automatically wrap at 72 characters and spell check git commit messages
-  "   autocmd FileType gitcommit setlocal textwidth=72
   autocmd FileType gitcommit setlocal spell
   autocmd FileType gitcommit hi clear SpellBad
   autocmd FileType gitcommit hi SpellBad cterm=underline
