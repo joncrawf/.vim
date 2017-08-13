@@ -49,6 +49,9 @@
 [submodule "plugged/vim-gutentags"]
 	path = plugged/vim-gutentags
 	url = https://github.com/ludovicchabant/vim-gutentags
+[submodule "plugged/tagbar"]
+	path = plugged/tagbar
+	url = https://github.com/majutsushi/tagbar
 [submodule "plugged/ack.vim"]
 	path = plugged/ack.vim
 	url = https://github.com/mileszs/ack.vim
@@ -100,6 +103,9 @@
 [submodule "plugged/vim-exchange"]
 	path = plugged/vim-exchange
 	url = https://github.com/tommcdo/vim-exchange
+[submodule "plugged/vim-eunuch"]
+	path = plugged/vim-eunuch
+	url = https://github.com/tpope/vim-eunuch
 [submodule "plugged/vim-fugitive"]
 	path = plugged/vim-fugitive
 	url = https://github.com/tpope/vim-fugitive

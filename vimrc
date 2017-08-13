@@ -237,6 +237,8 @@ nnoremap <leader>or :VtrOpenRunner { 'orientation': 'v', 'percentage': 20 }<cr>:
 nnoremap <leader>ga :Git add %:p<cr><cr>
 nnoremap <leader>gs :Gstatus<cr>
 
+nnoremap <leader>t :TagbarToggle<cr>
+
 map <Leader><Leader> <Plug>(easymotion-prefix)
 "}}}
 " Custom Functions"{{{
