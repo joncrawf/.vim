@@ -67,9 +67,6 @@
 [submodule "plugged/vim-markdown"]
 	path = plugged/vim-markdown
 	url = https://github.com/plasticboy/vim-markdown
-[submodule "plugged/vim-one"]
-	path = plugged/vim-one
-	url = https://github.com/rakr/vim-one
 [submodule "plugged/delimitMate"]
 	path = plugged/delimitMate
 	url = https://github.com/Raimondi/delimitMate

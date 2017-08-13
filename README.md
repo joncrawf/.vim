@@ -33,7 +33,6 @@ In order to maintain the following plugins, [vim-plug](https://github.com/junegu
 - [github.com/ntpeters/vim-better-whitespace](https://github.com/ntpeters/vim-better-whitespace.git)
 - [github.com/pbrisbin/vim-mkdir](https://github.com/pbrisbin/vim-mkdir.git)
 - [github.com/Raimondi/delimitMate](https://github.com/Raimondi/delimitMate.git)
-- [github.com/rakr/vim-one](https://github.com/rakr/vim-one.git)
 - [github.com/ryanoasis/vim-devicons](https://github.com/ryanoasis/vim-devicons.git)
 - [github.com/scrooloose/nerdcommenter](https://github.com/scrooloose/nerdcommenter.git)
 - [github.com/sheerun/vim-polyglot](https://github.com/sheerun/vim-polyglot.git)

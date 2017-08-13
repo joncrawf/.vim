@@ -55,10 +55,6 @@ Plug 'tpope/vim-vinegar'
 Plug 'vim-scripts/matchit.zip' " extended % matching
 Plug 'vim-scripts/ReplaceWithRegister'
 
-" colour schemes"{{{
-Plug 'rakr/vim-one'
-
-" }}}
 " tmux"{{{
 Plug 'tmux-plugins/vim-tmux'
 Plug 'christoomey/vim-tmux-navigator'
