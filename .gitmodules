@@ -82,9 +82,6 @@
 [submodule "plugged/nerdcommenter"]
 	path = plugged/nerdcommenter
 	url = https://github.com/scrooloose/nerdcommenter
-[submodule "plugged/nerdtree"]
-	path = plugged/nerdtree
-	url = https://github.com/scrooloose/nerdtree
 [submodule "plugged/deoplete.nvim"]
 	path = plugged/deoplete.nvim
 	url = https://github.com/Shougo/deoplete.nvim
@@ -121,6 +118,9 @@
 [submodule "plugged/vim-unimpaired"]
 	path = plugged/vim-unimpaired
 	url = https://github.com/tpope/vim-unimpaired
+[submodule "plugged/vim-vinegar"]
+	path = plugged/vim-vinegar
+	url = https://github.com/tpope/vim-vinegar
 [submodule "plugged/matchit.zip"]
 	path = plugged/matchit.zip
 	url = https://github.com/vim-scripts/matchit.zip

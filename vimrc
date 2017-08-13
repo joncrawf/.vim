@@ -221,7 +221,6 @@ nnoremap <leader>vi :e ~/.vim/init.vim<cr>
 nnoremap <leader>ex :Explore .<cr>
 nnoremap <leader>b :Buffers<CR>
 nnoremap <leader>h :History<cr>
-map <C-n> :NERDTreeToggle<CR>
 " Move workspace to current buffer pwd
 nnoremap <leader>cd :cd %:p:h<CR>:pwd<CR> " all buffers
 nnoremap <leader>lcd :cd %:p:h<CR>:pwd<CR> " local buffers
@@ -361,9 +360,6 @@ let g:gutentags_generate_on_missing = 0
 " Neomake"{{{
 let g:neomake_serialize = 1
 let g:neomake_serialize_abort_on_error = 1
-" }}}
-" Nerdtree"{{{
-let NERDTreeShowHidden = 1
 " }}}
 " Rainbow Parens"{{{
 au VimEnter * RainbowParenthesesToggle

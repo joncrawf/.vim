@@ -39,7 +39,6 @@ Plug 'Raimondi/delimitMate' " automatic closing of quotes, parenthesis, brackets
 Plug 'ryanoasis/vim-devicons'
 Plug 'sheerun/vim-polyglot'
 Plug 'scrooloose/nerdcommenter'
-Plug 'scrooloose/nerdtree'
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'sickill/vim-pasta' " context-aware pasting
 Plug 'SirVer/ultisnips' | Plug 'honza/vim-snippets'
@@ -52,6 +51,7 @@ Plug 'tpope/vim-sleuth' " detect indent style (tabs vs. spaces)
 Plug 'tpope/vim-surround' " mappings to easily delete, change and add such surroundings in pairs, such as quotes, parens, etc.
 Plug 'tpope/vim-repeat' " enables repeating other supported plugins with the . command
 Plug 'tpope/vim-unimpaired'
+Plug 'tpope/vim-vinegar'
 Plug 'vim-scripts/matchit.zip' " extended % matching
 Plug 'vim-scripts/ReplaceWithRegister'
 
