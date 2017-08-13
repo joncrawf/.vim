@@ -1,0 +1,126 @@
+[submodule "plugged/vim-gitgutter"]
+	path = plugged/vim-gitgutter
+	url = https://github.com/airblade/vim-gitgutter
+[submodule "plugged/splitjoin.vim"]
+	path = plugged/splitjoin.vim
+	url = https://github.com/AndrewRadev/splitjoin.vim
+[submodule "plugged/vim-airline"]
+	path = plugged/vim-airline
+	url = https://github.com/bling/vim-airline
+[submodule "plugged/vim-visual-star-search"]
+	path = plugged/vim-visual-star-search
+	url = https://github.com/bronson/vim-visual-star-search
+[submodule "plugged/vim-tmux-navigator"]
+	path = plugged/vim-tmux-navigator
+	url = https://github.com/christoomey/vim-tmux-navigator
+[submodule "plugged/vim-tmux-runner"]
+	path = plugged/vim-tmux-runner
+	url = https://github.com/christoomey/vim-tmux-runner
+[submodule "plugged/vim-sort-motion"]
+	path = plugged/vim-sort-motion
+	url = https://github.com/christoomey/vim-sort-motion
+[submodule "plugged/vim-easymotion"]
+	path = plugged/vim-easymotion
+	url = https://github.com/easymotion/vim-easymotion
+[submodule "plugged/vim-snippets"]
+	path = plugged/vim-snippets
+	url = https://github.com/honza/vim-snippets
+[submodule "plugged/auto-pairs"]
+	path = plugged/auto-pairs
+	url = https://github.com/jiangmiao/auto-pairs
+[submodule "plugged/fzf.vim"]
+	path = plugged/fzf.vim
+	url = https://github.com/junegunn/fzf.vim
+[submodule "plugged/vim-easy-align"]
+	path = plugged/vim-easy-align
+	url = https://github.com/junegunn/vim-easy-align
+[submodule "plugged/vim-textobj-user"]
+	path = plugged/vim-textobj-user
+	url = https://github.com/kana/vim-textobj-user
+[submodule "plugged/rainbow_parentheses.vim"]
+	path = plugged/rainbow_parentheses.vim
+	url = https://github.com/kien/rainbow_parentheses.vim
+[submodule "plugged/vim-textobj-underscore"]
+	path = plugged/vim-textobj-underscore
+	url = https://github.com/lucapette/vim-textobj-underscore
+[submodule "plugged/vim-gutentags"]
+	path = plugged/vim-gutentags
+	url = https://github.com/ludovicchabant/vim-gutentags
+[submodule "plugged/ack.vim"]
+	path = plugged/ack.vim
+	url = https://github.com/mileszs/ack.vim
+[submodule "plugged/vim-bbye"]
+	path = plugged/vim-bbye
+	url = https://github.com/moll/vim-bbye
+[submodule "plugged/neomake"]
+	path = plugged/neomake
+	url = https://github.com/neomake/neomake
+[submodule "plugged/vim-better-whitespace"]
+	path = plugged/vim-better-whitespace
+	url = https://github.com/ntpeters/vim-better-whitespace
+[submodule "plugged/vim-mkdir"]
+	path = plugged/vim-mkdir
+	url = https://github.com/pbrisbin/vim-mkdir
+[submodule "plugged/vim-markdown"]
+	path = plugged/vim-markdown
+	url = https://github.com/plasticboy/vim-markdown
+[submodule "plugged/vim-one"]
+	path = plugged/vim-one
+	url = https://github.com/rakr/vim-one
+[submodule "plugged/delimitMate"]
+	path = plugged/delimitMate
+	url = https://github.com/Raimondi/delimitMate
+[submodule "plugged/vim-devicons"]
+	path = plugged/vim-devicons
+	url = https://github.com/ryanoasis/vim-devicons
+[submodule "plugged/vim-polyglot"]
+	path = plugged/vim-polyglot
+	url = https://github.com/sheerun/vim-polyglot
+[submodule "plugged/nerdcommenter"]
+	path = plugged/nerdcommenter
+	url = https://github.com/scrooloose/nerdcommenter
+[submodule "plugged/nerdtree"]
+	path = plugged/nerdtree
+	url = https://github.com/scrooloose/nerdtree
+[submodule "plugged/deoplete.nvim"]
+	path = plugged/deoplete.nvim
+	url = https://github.com/Shougo/deoplete.nvim
+[submodule "plugged/vim-pasta"]
+	path = plugged/vim-pasta
+	url = https://github.com/sickill/vim-pasta
+[submodule "plugged/ultisnips"]
+	path = plugged/ultisnips
+	url = https://github.com/SirVer/ultisnips
+[submodule "plugged/vim-smooth-scroll"]
+	path = plugged/vim-smooth-scroll
+	url = https://github.com/terryma/vim-smooth-scroll
+[submodule "plugged/vim-multiple-cursors"]
+	path = plugged/vim-multiple-cursors
+	url = https://github.com/terryma/vim-multiple-cursors
+[submodule "plugged/vim-tmux"]
+	path = plugged/vim-tmux
+	url = https://github.com/tmux-plugins/vim-tmux
+[submodule "plugged/vim-exchange"]
+	path = plugged/vim-exchange
+	url = https://github.com/tommcdo/vim-exchange
+[submodule "plugged/vim-fugitive"]
+	path = plugged/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive
+[submodule "plugged/vim-sleuth"]
+	path = plugged/vim-sleuth
+	url = https://github.com/tpope/vim-sleuth
+[submodule "plugged/vim-surround"]
+	path = plugged/vim-surround
+	url = https://github.com/tpope/vim-surround
+[submodule "plugged/vim-repeat"]
+	path = plugged/vim-repeat
+	url = https://github.com/tpope/vim-repeat
+[submodule "plugged/vim-unimpaired"]
+	path = plugged/vim-unimpaired
+	url = https://github.com/tpope/vim-unimpaired
+[submodule "plugged/matchit.zip"]
+	path = plugged/matchit.zip
+	url = https://github.com/vim-scripts/matchit.zip
+[submodule "plugged/ReplaceWithRegister"]
+	path = plugged/ReplaceWithRegister
+	url = https://github.com/vim-scripts/ReplaceWithRegister
