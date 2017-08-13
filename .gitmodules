@@ -22,6 +22,9 @@
 [submodule "plugged/vim-easymotion"]
 	path = plugged/vim-easymotion
 	url = https://github.com/easymotion/vim-easymotion
+[submodule "plugged/vim-go"]
+	path = plugged/vim-go
+	url = https://github.com/fatih/vim-go
 [submodule "plugged/vim-snippets"]
 	path = plugged/vim-snippets
 	url = https://github.com/honza/vim-snippets

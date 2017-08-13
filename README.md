@@ -18,6 +18,7 @@ In order to maintain the following plugins, [vim-plug](https://github.com/junegu
 - [github.com/christoomey/vim-tmux-navigator](https://github.com/christoomey/vim-tmux-navigator.git)
 - [github.com/christoomey/vim-tmux-runner](https://github.com/christoomey/vim-tmux-runner.git)
 - [github.com/easymotion/vim-easymotion](https://github.com/easymotion/vim-easymotion.git)
+- [github.com/fatih/vim-go](https://github.com/fatih/vim-go.git)
 - [github.com/honza/vim-snippets](https://github.com/honza/vim-snippets.git)
 - [github.com/jiangmiao/auto-pairs](https://github.com/jiangmiao/auto-pairs.git)
 - [github.com/junegunn/fzf.vim](https://github.com/junegunn/fzf.vim.git)

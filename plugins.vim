@@ -65,5 +65,8 @@ Plug 'christoomey/vim-tmux-navigator'
 Plug 'christoomey/vim-tmux-runner'
 
 " }}}
+" Go"{{{
+Plug 'fatih/vim-go'
 
+" }}}
 call plug#end()
