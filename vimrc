@@ -288,6 +288,7 @@ augroup vimrcEx
   autocmd FileType gitcommit set formatoptions+=t
 
   " Mapping q to close and help manual whilst keeping the split open
+  autocmd FileType netrw nnoremap q :Bdelete<cr>
   autocmd FileType help nnoremap q :bd<cr>
 
   " Run NeoMake on read and write operations
@@ -356,6 +357,9 @@ let g:gutentags_generate_on_missing = 0
 " Neomake"{{{
 let g:neomake_serialize = 1
 let g:neomake_serialize_abort_on_error = 1
+" }}}
+" Netrw"{{{
+let g:netrw_banner=0
 " }}}
 " Rainbow Parens"{{{
 au VimEnter * RainbowParenthesesToggle
