@@ -274,6 +274,8 @@ augroup vimrcEx
   " Maps K to open vim help for the word under cursor when editing vim files
   autocmd FileType vim setlocal keywordprg=:help
 
+ "autocmd BufRead,BufNewFile *.md set filetype=markdown
+
   " Automatically wrap at 80 characters and enable spell check text and markdowns
   autocmd FileType text,markdown setlocal textwidth=80
   autocmd FileType text,markdown setlocal spell
