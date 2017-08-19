@@ -64,7 +64,7 @@ Plug 'christoomey/vim-tmux-runner'
 
 " }}}
 " Go"{{{
-Plug 'fatih/vim-go'
+Plug 'fatih/vim-go', { 'do': ':GoInstallBinaries' }
 
 " }}}
 call plug#end()

@@ -58,9 +58,11 @@ highlight NonText ctermbg=none ctermfg=8
 " Vim settings"{{{
 set autoindent
 set autoread     " auto-reload buffers when files are changed on disk
+set autowrite " automatically save before :next, :make, etc.
 set backspace=indent,eol,start
 set cmdheight=1             " command bar height
 set complete+=kspell
+set completeopt=longest,menuone " better completion
 set cursorline
 set diffopt+=vertical
 set encoding=utf-8
@@ -108,6 +110,7 @@ set splitbelow     " New horizontal split opens to the bottom
 set splitright     " New vertical split opens to the right
 set t_vb=
 set tabstop=2
+set textwidth=80
 set title                   " set terminal title
 set tm=500
 set ttyfast                 " faster redrawing
@@ -381,6 +384,13 @@ let g:UltiSnipsSnippetDirectories=[$HOME.'/.vim/UltiSnips', $HOME.'/.vim/plugged
 " }}}
 " Vim better whitespace"{{{
 let g:better_whitespace_filetypes_blacklist=['markdown', 'md']
+" }}}
+" Vim go"{{{
+let g:go_fmt_fail_silently = 0
+let g:go_fmt_command = "goimports"
+let g:go_autodetect_gopath = 1
+let g:go_term_enabled = 1
+let g:go_highlight_build_constraints = 1
 " }}}
 " Vim multiple cursors"{{{
 let g:multi_cursor_use_default_mapping=0
