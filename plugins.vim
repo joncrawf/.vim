@@ -39,7 +39,6 @@ Plug 'terryma/vim-smooth-scroll'
 Plug 'tommcdo/vim-exchange'
 Plug 'tpope/vim-eunuch'
 Plug 'tpope/vim-fugitive'
-Plug 'tpope/vim-markdown'
 Plug 'tpope/vim-sleuth' " detect indent style (tabs vs. spaces)
 Plug 'tpope/vim-surround' " mappings to easily delete, change and add such surroundings in pairs, such as quotes, parens, etc.
 Plug 'tpope/vim-repeat' " enables repeating other supported plugins with the . command
