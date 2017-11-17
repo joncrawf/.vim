@@ -46,11 +46,11 @@ Plug 'tpope/vim-unimpaired'
 Plug 'tpope/vim-vinegar'
 Plug 'vim-scripts/matchit.zip' " extended % matching
 Plug 'vim-scripts/ReplaceWithRegister'
+Plug 'skywind3000/asyncrun.vim'
 
 " tmux"{{{
 Plug 'tmux-plugins/vim-tmux'
 Plug 'christoomey/vim-tmux-navigator'
-Plug 'christoomey/vim-tmux-runner'
 
 " }}}
 " Go"{{{

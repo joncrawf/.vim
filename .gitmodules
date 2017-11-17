@@ -130,3 +130,6 @@
 [submodule "plugged/ReplaceWithRegister"]
 	path = plugged/ReplaceWithRegister
 	url = https://github.com/vim-scripts/ReplaceWithRegister
+[submodule "plugged/asyncrun.vim"]
+	path = plugged/asyncrun.vim
+	url = https://github.com/skywind3000/asyncrun.vim

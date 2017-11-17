@@ -63,6 +63,7 @@ set backspace=indent,eol,start
 set cmdheight=1             " command bar height
 set complete+=kspell
 set completeopt=longest,menuone " better completion
+set conceallevel=0 " do not conceal anything
 set cursorline
 set diffopt+=vertical
 set encoding=utf-8
@@ -227,15 +228,6 @@ nnoremap <leader>h :History<cr>
 " Move workspace to current buffer pwd
 nnoremap <leader>cd :cd %:p:h<CR>:pwd<CR> " all buffers
 nnoremap <leader>lcd :cd %:p:h<CR>:pwd<CR> " local buffers
-" Mappings for the tmux runner plugin
-nnoremap <leader>va :VtrAttachToPane<cr>
-nnoremap <leader>sc :VtrSendCommand<cr>
-nnoremap <leader>sf :VtrSendFile!<cr>
-nnoremap <leader>cr :VtrClearRunner<cr>
-nnoremap <leader>kr :VtrKillRunner<cr>
-nnoremap <C-a> :VtrSendLinesToRunner<cr>
-vnoremap <C-a> :VtrSendLinesToRunner<cr>
-nnoremap <leader>or :VtrOpenRunner { 'orientation': 'v', 'percentage': 20 }<cr>:VtrSendFile<cr>
 
 nnoremap <leader>ga :Git add %:p<cr><cr>
 nnoremap <leader>gs :Gstatus<cr>
@@ -298,6 +290,8 @@ augroup vimrcEx
 
   " Run NeoMake on read and write operations
   autocmd BufReadPost,BufWritePost * Neomake
+
+  autocmd User AsyncRunStart call asyncrun#quickfix_toggle(8, 1)
 augroup END
 " }}}
 " Wildmenu completion"{{{
@@ -392,6 +386,9 @@ let g:go_autodetect_gopath = 1
 let g:go_term_enabled = 1
 let g:go_highlight_build_constraints = 1
 " }}}
+" Vim markdown"{{{
+let g:vim_markdown_folding_disabled = 1
+" }}}
 " Vim multiple cursors"{{{
 let g:multi_cursor_use_default_mapping=0
 let g:multi_cursor_next_key='<C-m>'
@@ -401,10 +398,5 @@ let g:multi_cursor_quit_key='<Esc>'
 " }}}
 " Vim sexp"{{{
 let g:sexp_enable_insert_mode_mappings = 1
-" }}}
-" Vim tmux runner"{{{
-let g:VtrUseVtrMaps = 1
-let g:VtrGitCdUpOnOpen = 0
-let g:VtrPercentage = 33
 " }}}
 " }}}
