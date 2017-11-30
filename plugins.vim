@@ -48,6 +48,11 @@ Plug 'vim-scripts/matchit.zip' " extended % matching
 Plug 'vim-scripts/ReplaceWithRegister'
 Plug 'skywind3000/asyncrun.vim'
 
+" markdown"{{{
+Plug 'shime/vim-livedown'
+
+"}}}
+
 " tmux"{{{
 Plug 'tmux-plugins/vim-tmux'
 Plug 'christoomey/vim-tmux-navigator'

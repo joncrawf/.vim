@@ -37,6 +37,7 @@ In order to maintain the following plugins, [vim-plug](https://github.com/junegu
 - [github.com/ryanoasis/vim-devicons](https://github.com/ryanoasis/vim-devicons.git)
 - [github.com/scrooloose/nerdcommenter](https://github.com/scrooloose/nerdcommenter.git)
 - [github.com/sheerun/vim-polyglot](https://github.com/sheerun/vim-polyglot.git)
+- [github.com/shime/vim-livedown](https://github.com/shime/vim-livedown)
 - [github.com/Shougo/deoplete.nvim](https://github.com/Shougo/deoplete.nvim.git)
 - [github.com/sickill/vim-pasta](https://github.com/sickill/vim-pasta.git)
 - [github.com/SirVer/ultisnips](https://github.com/SirVer/ultisnips.git)

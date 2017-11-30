@@ -388,6 +388,13 @@ let g:go_highlight_build_constraints = 1
 " }}}
 " Vim markdown"{{{
 let g:vim_markdown_folding_disabled = 1
+let g:vim_markdown_math = 1
+let g:vim_markdown_frontmatter = 1
+let g:vim_markdown_new_list_item_indent = 2
+" }}}
+" Vim livedown"{{{
+
+let g:livedown_browser = "firefox"
 " }}}
 " Vim multiple cursors"{{{
 let g:multi_cursor_use_default_mapping=0

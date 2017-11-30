@@ -133,3 +133,6 @@
 [submodule "plugged/asyncrun.vim"]
 	path = plugged/asyncrun.vim
 	url = https://github.com/skywind3000/asyncrun.vim
+[submodule "plugged/vim-livedown"]
+	path = plugged/vim-livedown
+	url = https://github.com/shime/vim-livedown
