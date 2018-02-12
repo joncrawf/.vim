@@ -234,6 +234,8 @@ nnoremap <leader>gs :Gstatus<cr>
 
 nnoremap <leader>t :TagbarToggle<cr>
 
+map <leader>gf :e <cfile><cr>
+
 map <Leader><Leader> <Plug>(easymotion-prefix)
 "}}}
 " Custom Functions"{{{
