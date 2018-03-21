@@ -1,9 +1,6 @@
 [submodule "plugged/vim-gitgutter"]
 	path = plugged/vim-gitgutter
 	url = https://github.com/airblade/vim-gitgutter
-[submodule "plugged/splitjoin.vim"]
-	path = plugged/splitjoin.vim
-	url = https://github.com/AndrewRadev/splitjoin.vim
 [submodule "plugged/vim-airline"]
 	path = plugged/vim-airline
 	url = https://github.com/bling/vim-airline
@@ -13,9 +10,6 @@
 [submodule "plugged/vim-tmux-navigator"]
 	path = plugged/vim-tmux-navigator
 	url = https://github.com/christoomey/vim-tmux-navigator
-[submodule "plugged/vim-tmux-runner"]
-	path = plugged/vim-tmux-runner
-	url = https://github.com/christoomey/vim-tmux-runner
 [submodule "plugged/vim-sort-motion"]
 	path = plugged/vim-sort-motion
 	url = https://github.com/christoomey/vim-sort-motion
@@ -28,9 +22,6 @@
 [submodule "plugged/vim-snippets"]
 	path = plugged/vim-snippets
 	url = https://github.com/honza/vim-snippets
-[submodule "plugged/auto-pairs"]
-	path = plugged/auto-pairs
-	url = https://github.com/jiangmiao/auto-pairs
 [submodule "plugged/fzf.vim"]
 	path = plugged/fzf.vim
 	url = https://github.com/junegunn/fzf.vim
@@ -49,15 +40,9 @@
 [submodule "plugged/vim-gutentags"]
 	path = plugged/vim-gutentags
 	url = https://github.com/ludovicchabant/vim-gutentags
-[submodule "plugged/tagbar"]
-	path = plugged/tagbar
-	url = https://github.com/majutsushi/tagbar
 [submodule "plugged/ack.vim"]
 	path = plugged/ack.vim
 	url = https://github.com/mileszs/ack.vim
-[submodule "plugged/vim-bbye"]
-	path = plugged/vim-bbye
-	url = https://github.com/moll/vim-bbye
 [submodule "plugged/neomake"]
 	path = plugged/neomake
 	url = https://github.com/neomake/neomake
@@ -79,9 +64,6 @@
 [submodule "plugged/vim-polyglot"]
 	path = plugged/vim-polyglot
 	url = https://github.com/sheerun/vim-polyglot
-[submodule "plugged/nerdcommenter"]
-	path = plugged/nerdcommenter
-	url = https://github.com/scrooloose/nerdcommenter
 [submodule "plugged/deoplete.nvim"]
 	path = plugged/deoplete.nvim
 	url = https://github.com/Shougo/deoplete.nvim
@@ -124,15 +106,12 @@
 [submodule "plugged/vim-vinegar"]
 	path = plugged/vim-vinegar
 	url = https://github.com/tpope/vim-vinegar
-[submodule "plugged/matchit.zip"]
-	path = plugged/matchit.zip
-	url = https://github.com/vim-scripts/matchit.zip
 [submodule "plugged/ReplaceWithRegister"]
 	path = plugged/ReplaceWithRegister
 	url = https://github.com/vim-scripts/ReplaceWithRegister
-[submodule "plugged/asyncrun.vim"]
-	path = plugged/asyncrun.vim
-	url = https://github.com/skywind3000/asyncrun.vim
-[submodule "plugged/vim-livedown"]
-	path = plugged/vim-livedown
-	url = https://github.com/shime/vim-livedown
+[submodule "plugged/vim-commentary"]
+	path = plugged/vim-commentary
+	url = https://github.com/tpope/vim-commentary
+[submodule "plugged/vim-system-copy"]
+	path = plugged/vim-system-copy
+	url = https://github.com/christoomey/vim-system-copy

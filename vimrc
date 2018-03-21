@@ -78,6 +78,7 @@ set hlsearch                " highlight search results
 set ignorecase              " case insensitive searching
 set incsearch               " set incremental search, like modern browsers
 set infercase     " smarter case for autocompletion
+set iskeyword+=-  " hyphenated words
 set laststatus=2            " show the satus line all the time
 set linebreak    " set soft wrapping
 set list " toggle invisible characters
@@ -146,11 +147,6 @@ nnoremap 0 ^
 noremap <C-z> <C-a>
 " Allow star to go back to the first search term
 nnoremap * *N
-" enable . command in visual mode
-vnoremap . :normal .<cr>
-" Copy to system clipboard
-vnoremap <C-c> "*y
-nnoremap <C-p> :Files<cr>
 
 " Have to use hjkl
 nnoremap <Left> :echoe "Use h"<cr>
@@ -191,12 +187,15 @@ xmap ga <Plug>(EasyAlign)
 " Start interactive EasyAlign for a motion/text object (e.g. gaip)
 nmap ga <Plug>(EasyAlign)
 
+" Show files
+nnoremap <C-p> :Files<cr>
+
+" Exit terminal mode
+tnoremap <Esc> <C-\><C-n>
 " }}}
 " Leader mappings"{{{
 let mapleader = ","
 let g:mapleader = ","
-" paste from system
-nnoremap <leader>p :put =nr2char(10)<CR>"*p`[=`]`]
 nnoremap <leader>a :Ack!<Space>
 " Going back to the last spelling mistake and choosing the 1st option
 nnoremap <leader>sp mz[s1z=`z
@@ -218,11 +217,8 @@ nmap <leader><space><space> :%s/\n\{2,}/\r\r/g<cr>
 nnoremap <leader>w :w<cr>
 nnoremap <leader>q :q<cr>
 nnoremap <leader>qa :qa<cr>
-nnoremap <leader>qq :Bdelete<cr>
-nnoremap <leader>qqa :bufdo :Bdelete<cr>
 nnoremap <leader>wq :wq<cr>
 nnoremap <leader>vi :e ~/.vim/init.vim<cr>
-nnoremap <leader>ex :Explore .<cr>
 nnoremap <leader>b :Buffers<CR>
 nnoremap <leader>h :History<cr>
 " Move workspace to current buffer pwd
@@ -231,8 +227,6 @@ nnoremap <leader>lcd :cd %:p:h<CR>:pwd<CR> " local buffers
 
 nnoremap <leader>ga :Git add %:p<cr><cr>
 nnoremap <leader>gs :Gstatus<cr>
-
-nnoremap <leader>t :TagbarToggle<cr>
 
 map <leader>gf :e <cfile><cr>
 
@@ -266,12 +260,11 @@ augroup vimrcEx
         \   exe "normal g`\"" |
         \ endif
 
-  autocmd BufWritePre * StripWhitespace
+  let blacklist = ['markdown', 'md']
+  autocmd BufWritePre * if index(blacklist, &ft) < 0 | StripWhitespace
 
   " Maps K to open vim help for the word under cursor when editing vim files
   autocmd FileType vim setlocal keywordprg=:help
-
- "autocmd BufRead,BufNewFile *.md set filetype=markdown
 
   " Automatically wrap at 80 characters and enable spell check text and markdowns
   autocmd FileType text,markdown setlocal textwidth=80
@@ -361,6 +354,7 @@ let g:neomake_serialize_abort_on_error = 1
 " }}}
 " Netrw"{{{
 let g:netrw_banner=0
+let g:netrw_liststyle=3 " tree view
 " }}}
 " Rainbow Parens"{{{
 au VimEnter * RainbowParenthesesToggle
@@ -393,10 +387,6 @@ let g:vim_markdown_folding_disabled = 1
 let g:vim_markdown_math = 1
 let g:vim_markdown_frontmatter = 1
 let g:vim_markdown_new_list_item_indent = 2
-" }}}
-" Vim livedown"{{{
-
-let g:livedown_browser = "firefox"
 " }}}
 " Vim multiple cursors"{{{
 let g:multi_cursor_use_default_mapping=0
