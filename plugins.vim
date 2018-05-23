@@ -43,6 +43,9 @@ Plug 'tpope/vim-unimpaired'
 Plug 'tpope/vim-vinegar'
 Plug 'vim-scripts/ReplaceWithRegister'
 
+Plug 'vim-airline/vim-airline-themes'
+Plug 'sjl/badwolf'
+
 " tmux"{{{
 Plug 'tmux-plugins/vim-tmux'
 Plug 'christoomey/vim-tmux-navigator'

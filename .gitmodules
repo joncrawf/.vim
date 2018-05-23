@@ -115,3 +115,9 @@
 [submodule "plugged/vim-system-copy"]
 	path = plugged/vim-system-copy
 	url = https://github.com/christoomey/vim-system-copy
+[submodule "plugged/badwolf"]
+	path = plugged/badwolf
+	url = https://github.com/sjl/badwolf
+[submodule "plugged/vim-airline-themes"]
+	path = plugged/vim-airline-themes
+	url = https://github.com/vim-airline/vim-airline-themes

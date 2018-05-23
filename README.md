@@ -36,6 +36,7 @@ In order to maintain the following plugins, [vim-plug](https://github.com/junegu
 - [github.com/Shougo/deoplete.nvim](https://github.com/Shougo/deoplete.nvim.git)
 - [github.com/sickill/vim-pasta](https://github.com/sickill/vim-pasta.git)
 - [github.com/SirVer/ultisnips](https://github.com/SirVer/ultisnips.git)
+- [github.com/sjl/badwolf](https://github.com/sjl/badwolf.git)
 - [github.com/terryma/vim-multiple-cursors](https://github.com/terryma/vim-multiple-cursors.git)
 - [github.com/terryma/vim-smooth-scroll](https://github.com/terryma/vim-smooth-scroll.git)
 - [github.com/tmux-plugins/vim-tmux](https://github.com/tmux-plugins/vim-tmux.git)
@@ -48,4 +49,5 @@ In order to maintain the following plugins, [vim-plug](https://github.com/junegu
 - [github.com/tpope/vim-surround](https://github.com/tpope/vim-surround.git)
 - [github.com/tpope/vim-unimpaired](https://github.com/tpope/vim-unimpaired.git)
 - [github.com/tpope/vim-vinegar](https://github.com/tpope/vim-vinegar.git)
+- [github.com/vim-airline/vim-airline-themes](https://github.com/vim-airline/vim-airline-themes.git)
 - [github.com/vim-scripts/ReplaceWithRegister](https://github.com/vim-scripts/ReplaceWithRegister.git)
