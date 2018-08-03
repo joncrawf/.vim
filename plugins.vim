@@ -18,7 +18,7 @@ Plug 'junegunn/fzf', { 'dir': '~/.vim/.fzf', 'do': './install --bin' } | Plug 'j
 Plug 'junegunn/vim-easy-align'
 Plug 'kana/vim-textobj-user' | Plug 'lucapette/vim-textobj-underscore'
 Plug 'kien/rainbow_parentheses.vim'
-Plug 'ludovicchabant/vim-gutentags'
+Plug 'ludovicchabant/vim-gutentags', { 'branch': 'vim7' }
 Plug 'mileszs/ack.vim'
 Plug 'neomake/neomake'
 Plug 'ntpeters/vim-better-whitespace'
