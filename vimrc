@@ -331,6 +331,8 @@ let g:neomake_serialize_abort_on_error = 1
 " Netrw"{{{
 let g:netrw_banner=0
 let g:netrw_liststyle=3 " tree view
+let g:netrw_list_hide= netrw_gitignore#Hide()
+let g:netrw_hide=1
 " }}}
 " Rainbow Parens"{{{
 au VimEnter * RainbowParenthesesToggle
