@@ -51,8 +51,4 @@ Plug 'tmux-plugins/vim-tmux'
 Plug 'christoomey/vim-tmux-navigator'
 
 " }}}
-" Go"{{{
-Plug 'fatih/vim-go', { 'do': ':GoInstallBinaries' }
-
-" }}}
 call plug#end()
