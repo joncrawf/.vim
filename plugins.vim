@@ -44,7 +44,7 @@ Plug 'tpope/vim-vinegar'
 Plug 'vim-scripts/ReplaceWithRegister'
 
 Plug 'vim-airline/vim-airline-themes'
-Plug 'sjl/badwolf'
+Plug 'altercation/vim-colors-solarized'
 
 " tmux"{{{
 Plug 'tmux-plugins/vim-tmux'

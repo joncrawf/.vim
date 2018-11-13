@@ -12,20 +12,18 @@ source ~/.vim/plugins.vim
 
 " }}}
 " Colour scheme settings"{{{
-let $NVIM_TUI_ENABLE_CURSOR_SHAPE=1
-
-if &term =~ '256color'
-  " disable background color erase
-  set t_ut=
-endif
-
-if (has("termguicolors"))
-  set termguicolors
-endif
 
 syntax enable
+if has('gui_running')
+  set transparency=3
+  " fix js regex syntax
+  set regexpengine=1
+  syntax enable
+endif
 set background=dark
-colorscheme badwolf
+let g:solarized_termcolors=256
+let g:solarized_termtrans=1
+colorscheme solarized
 set guifont=Inconsolata:h15
 set guioptions-=L
 

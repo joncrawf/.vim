@@ -109,12 +109,12 @@
 [submodule "plugged/vim-commentary"]
 	path = plugged/vim-commentary
 	url = https://github.com/tpope/vim-commentary
+[submodule "plugged/vim-colors-solarized"]
+	path = plugged/vim-colors-solarized
+	url = https://github.com/altercation/vim-colors-solarized
 [submodule "plugged/vim-system-copy"]
 	path = plugged/vim-system-copy
 	url = https://github.com/christoomey/vim-system-copy
-[submodule "plugged/badwolf"]
-	path = plugged/badwolf
-	url = https://github.com/sjl/badwolf
 [submodule "plugged/vim-airline-themes"]
 	path = plugged/vim-airline-themes
 	url = https://github.com/vim-airline/vim-airline-themes
