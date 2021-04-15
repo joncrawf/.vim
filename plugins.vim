@@ -13,6 +13,7 @@ Plug 'bling/vim-airline'
 Plug 'bronson/vim-visual-star-search'
 Plug 'christoomey/vim-sort-motion'
 Plug 'christoomey/vim-system-copy'
+Plug 'davidhalter/jedi-vim'
 Plug 'easymotion/vim-easymotion'
 Plug 'junegunn/fzf', { 'dir': '~/.vim/.fzf', 'do': './install --bin' } | Plug 'junegunn/fzf.vim'
 Plug 'junegunn/vim-easy-align'
@@ -45,6 +46,7 @@ Plug 'vim-scripts/ReplaceWithRegister'
 
 Plug 'vim-airline/vim-airline-themes'
 Plug 'altercation/vim-colors-solarized'
+Plug 'chriskempson/base16-vim'
 
 " tmux"{{{
 Plug 'tmux-plugins/vim-tmux'

@@ -11,13 +11,13 @@ In order to maintain the following plugins, [vim-plug](https://github.com/junegu
 
 ### Plugins Used
 - [github.com/airblade/vim-gitgutter](https://github.com/airblade/vim-gitgutter.git)
+- [github.com/altercation/vim-colors-solarized](https://github.com/altercation/vim-colors-solarized.git)
 - [github.com/bling/vim-airline](https://github.com/bling/vim-airline.git)
 - [github.com/bronson/vim-visual-star-search](https://github.com/bronson/vim-visual-star-search.git)
 - [github.com/christoomey/vim-sort-motion](https://github.com/christoomey/vim-sort-motion.git)
 - [github.com/christoomey/vim-system-copy](https://github.com/christoomey/vim-system-copy.git)
 - [github.com/christoomey/vim-tmux-navigator](https://github.com/christoomey/vim-tmux-navigator.git)
 - [github.com/easymotion/vim-easymotion](https://github.com/easymotion/vim-easymotion.git)
-- [github.com/fatih/vim-go](https://github.com/fatih/vim-go.git)
 - [github.com/honza/vim-snippets](https://github.com/honza/vim-snippets.git)
 - [github.com/junegunn/fzf.vim](https://github.com/junegunn/fzf.vim.git)
 - [github.com/junegunn/vim-easy-align](https://github.com/junegunn/vim-easy-align.git)
@@ -36,7 +36,6 @@ In order to maintain the following plugins, [vim-plug](https://github.com/junegu
 - [github.com/Shougo/deoplete.nvim](https://github.com/Shougo/deoplete.nvim.git)
 - [github.com/sickill/vim-pasta](https://github.com/sickill/vim-pasta.git)
 - [github.com/SirVer/ultisnips](https://github.com/SirVer/ultisnips.git)
-- [github.com/sjl/badwolf](https://github.com/sjl/badwolf.git)
 - [github.com/terryma/vim-multiple-cursors](https://github.com/terryma/vim-multiple-cursors.git)
 - [github.com/terryma/vim-smooth-scroll](https://github.com/terryma/vim-smooth-scroll.git)
 - [github.com/tmux-plugins/vim-tmux](https://github.com/tmux-plugins/vim-tmux.git)

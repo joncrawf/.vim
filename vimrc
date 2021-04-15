@@ -23,6 +23,8 @@ endif
 set background=dark
 let g:solarized_termcolors=256
 let g:solarized_termtrans=1
+" colorscheme base16-tomorrow-night
+" set termguicolors
 colorscheme solarized
 set guifont=Inconsolata:h15
 set guioptions-=L
@@ -373,5 +375,9 @@ let g:multi_cursor_quit_key='<Esc>'
 " }}}
 " Vim sexp"{{{
 let g:sexp_enable_insert_mode_mappings = 1
+" }}}
+" Vim system copy"{{{
+let g:system_copy#copy_command='xclip -sel clipboard'
+let g:system_copy#paste_command='xclip -sel clipboard -o'
 " }}}
 " }}}
